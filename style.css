@@ -9,6 +9,7 @@ body {
 }
 
 #container {
+  /* display: flex; */
   padding: 5% 3%;
 }
 
@@ -33,4 +34,34 @@ body {
 
 #testimonial-5 {
   background-color: hsl(0, 0%, 100%);
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 576px) {
+  #container {
+    display: flex;
+  }
+  #testimonial-1 {
+    order: 1;
+  }
+
+  #testimonial-2 {
+    order: 2;
+  }
+
+  #testimonial-3 {
+    order: 4;
+  }
+
+  #testimonial-4 {
+    order: 5;
+  }
+
+  #testimonial-5 {
+    order: 3;
+  }
 }

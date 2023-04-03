@@ -9,7 +9,6 @@ body {
 }
 
 #container {
-  /* display: flex; */
   padding: 5% 3%;
 }
 
@@ -45,23 +44,39 @@ body {
   #container {
     display: flex;
   }
+  #container-left {
+    display: flex;
+    flex-direction: column;
+  }
+  #first-row {
+    display: flex;
+    flex-basis: 50%;
+  }
+  #second-row {
+    display: flex;
+    flex-basis: 50%;
+  }
+
   #testimonial-1 {
-    order: 1;
+    flex-basis: 75%;
   }
 
   #testimonial-2 {
-    order: 2;
+    margin-left: 20px;
+    flex-basis: 25%;
   }
 
   #testimonial-3 {
-    order: 4;
+    flex-basis: 25%;
   }
 
   #testimonial-4 {
-    order: 5;
+    margin-left: 20px;
+    flex-basis: 75%;
   }
 
   #testimonial-5 {
-    order: 3;
+    margin-left: 20px;
+    flex-basis: 25%;
   }
 }

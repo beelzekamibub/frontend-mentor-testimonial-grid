@@ -48,7 +48,6 @@ body {
     justify-content: space-between;
   }
   #testimonial-5 {
-    /* margin-left: 20px; */
     flex-basis: 25%;
   }
   #container-left {
@@ -72,7 +71,6 @@ body {
   }
 
   #testimonial-2 {
-    /* margin-left: 20px; */
     flex-basis: 34%;
   }
 
@@ -81,7 +79,6 @@ body {
   }
 
   #testimonial-4 {
-    /* margin-left: 20px; */
     flex-basis: 63.5%;
   }
 }
